@@ -31,7 +31,7 @@ const translations = {
 
     // About section
     'about.title': 'About Me',
-    'about.description': 'I am a passionate fullstack web developer with experience in building modern web applications. I focus on creating clean, efficient, and user-friendly solutions.',
+    'about.description': 'I\'m a passionate Full Stack Developer with expertise in building modern web applications using React, Node.js, CakePHP and other cutting-edge technologies.',
 
     // Skills section
     'skills.title': 'Skills & Technologies',
@@ -113,7 +113,7 @@ const translations = {
 
     // About section
     'about.title': 'Về Tôi',
-    'about.description': 'Tôi là một lập trình viên fullstack với kinh nghiệm trong việc xây dựng các ứng dụng web hiện đại. Tôi tập trung vào việc tạo ra các giải pháp sạch, hiệu quả và thân thiện với người dùng.',
+    'about.description': 'Tôi là một lập trình viên Full Stack đầy nhiệt huyết với chuyên môn xây dựng các ứng dụng web hiện đại bằng React, Node.js, CakePHP và các công nghệ tiên tiến khác.',
 
     // Skills section
     'skills.title': 'Kỹ Năng & Công Nghệ',

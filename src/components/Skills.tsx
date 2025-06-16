@@ -19,7 +19,6 @@ const skillCategories = [
     skills: [
       { name: 'PHP/CakePHP', icon: '🐘' }, // Elephant for PHP
       { name: 'Node.js/Express', icon: '🟢' }, // Green circle for Node
-      { name: 'MongoDB', icon: '🍃' }, // Leaf for MongoDB
       { name: 'PostgreSQL', icon: '🐘' }, // Elephant for PostgreSQL
       { name: 'MySQL', icon: '💾' }, // Floppy disk for MySQL
       { name: 'REST API', icon: '🔌' }, // Plug for API

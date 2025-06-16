@@ -6,7 +6,6 @@ import { ArrowUp } from 'lucide-react';
 const Footer = () => {
   const { t } = useLanguage();
   const currentYear = new Date().getFullYear();
-
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,

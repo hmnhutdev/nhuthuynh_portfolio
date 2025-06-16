@@ -196,7 +196,7 @@ const Contact = () => {
               </div>
 
               {/* Social Links */}
-              <div className="mt-8">
+              {/* <div className="mt-8">
                 <h4 className="font-medium mb-4">Connect with me</h4>
                 <div className="flex gap-4">
                   <a
@@ -265,7 +265,7 @@ const Contact = () => {
                     </svg>
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </motion.div>
         </div>

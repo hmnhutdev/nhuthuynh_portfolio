@@ -25,8 +25,14 @@ const About = () => {
           >
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary">
               {/* Replace with your actual profile image */}
-              <div className="w-full h-full bg-muted flex items-center justify-center text-muted-foreground">
-                Profile Image
+              <div className="w-full h-full bg-muted rounded-full overflow-hidden">
+                <Image 
+                  src="/assets/images/avatar.jpg" 
+                  alt="Profile" 
+                  width={320} 
+                  height={320}
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </motion.div>
@@ -70,7 +76,7 @@ const About = () => {
                 </div>
                 <div className="border-l-2 border-primary pl-4 py-2">
                   <div className="text-sm text-muted-foreground">2017 - 2021</div>
-                  <div className="font-medium">Bachelor of Information Technology</div>
+                  <div className="font-medium">Engineer of Information Technology</div>
                   <div className="text-muted-foreground">Can Tho University</div>
                 </div>
               </div>
