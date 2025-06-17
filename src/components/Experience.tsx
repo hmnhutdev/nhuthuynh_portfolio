@@ -33,7 +33,7 @@ export default function Experience() {
   return (
     <section id="experience" className="py-20 bg-muted/10">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-12 text-center">{t('experience.title')}</h2>
+        <h2 className="text-3xl font-bold mb-12 text-center">{t('experience.title') as string}</h2>
         
         <div className="space-y-12 max-w-4xl mx-auto">
           {experiences.map((exp, index) => (

@@ -48,10 +48,10 @@ const Blog = () => {
       <div className="container mx-auto px-4">
         <div className="animate-on-scroll">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-            {t('blog.title')}
+            {t('blog.title') as string}
           </h2>
           <p className="text-muted-foreground text-center mb-12">
-            {t('blog.description')}
+            {t('blog.description') as string}
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -91,7 +91,7 @@ const Blog = () => {
                   href={`/blog/${post.slug}`}
                   className="inline-flex items-center gap-1 text-primary hover:underline"
                 >
-                  {t('blog.readMore')}
+                  {t('blog.readMore') as string}
                   <ArrowRight size={16} />
                 </a>
               </div>

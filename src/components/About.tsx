@@ -12,7 +12,7 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="animate-on-scroll">
           <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
-            {t('about.title')}
+            {t('about.title') as string}
           </h2>
         </div>
 
@@ -40,7 +40,7 @@ const About = () => {
           {/* About Text */}
           <div className="animate-on-scroll space-y-4">
             <p className="text-lg">
-              {t('about.description')}
+              {t('about.description') as string}
             </p>
             
             {/* Personal Info */}

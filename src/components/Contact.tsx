@@ -54,10 +54,10 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         <div className="animate-on-scroll">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-            {t('contact.title')}
+            {t('contact.title') as string}
           </h2>
           <p className="text-muted-foreground text-center mb-12">
-            {t('contact.description')}
+            {t('contact.description') as string}
           </p>
         </div>
 
@@ -73,7 +73,7 @@ const Contact = () => {
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="name" className="block mb-2 text-sm font-medium">
-                  {t('contact.nameLabel')}
+                  {t('contact.nameLabel') as string}
                 </label>
                 <input
                   type="text"
@@ -88,7 +88,7 @@ const Contact = () => {
 
               <div>
                 <label htmlFor="email" className="block mb-2 text-sm font-medium">
-                  {t('contact.emailLabel')}
+                  {t('contact.emailLabel') as string}
                 </label>
                 <input
                   type="email"
@@ -103,7 +103,7 @@ const Contact = () => {
 
               <div>
                 <label htmlFor="message" className="block mb-2 text-sm font-medium">
-                  {t('contact.messageLabel')}
+                  {t('contact.messageLabel') as string}
                 </label>
                 <textarea
                   id="message"
@@ -129,20 +129,20 @@ const Contact = () => {
                 ) : (
                   <>
                     <Send size={18} />
-                    <span>{t('contact.submitButton')}</span>
+                    <span>{t('contact.submitButton') as string}</span>
                   </>
                 )}
               </button>
 
               {submitStatus === 'success' && (
                 <div className="p-4 bg-green-100 text-green-800 rounded-md">
-                  {t('contact.success')}
+                  {t('contact.success') as string}
                 </div>
               )}
 
               {submitStatus === 'error' && (
                 <div className="p-4 bg-red-100 text-red-800 rounded-md">
-                  {t('contact.error')}
+                  {t('contact.error') as string}
                 </div>
               )}
             </form>

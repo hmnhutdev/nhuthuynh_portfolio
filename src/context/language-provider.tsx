@@ -4,7 +4,7 @@ import React, { createContext, useState, useContext, ReactNode } from 'react';
 
 type Language = 'en' | 'vi';
 
-type TranslationValue = string | Record<string, any>;
+type TranslationValue = string | ReactNode | Record<string, any>;
 
 interface LanguageContextType {
   language: Language;
