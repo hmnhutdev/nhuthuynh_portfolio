@@ -82,7 +82,7 @@ const Header = () => {
               }}
               className="text-muted-foreground hover:text-primary transition-colors"
             >
-              {item.name.toString()}
+              {item.name?.toString()}
             </a>
           ))}
         </motion.nav>
@@ -143,7 +143,7 @@ const Header = () => {
                 }}
                 className="text-muted-foreground hover:text-primary transition-colors py-2"
               >
-                {item.name.toString()}
+                {item.name?.toString()}
               </a>
             ))}
           </div>
