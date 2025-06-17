@@ -24,7 +24,7 @@ const Hero = () => {
             transition={{ duration: 0.5 }}
             className="mb-4 text-lg text-muted-foreground"
           >
-            {t('hero.greeting')}
+            {t('hero.greeting') as string}
           </motion.div>
 
           <motion.h1
@@ -42,7 +42,7 @@ const Hero = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-2xl md:text-3xl font-semibold mb-6 text-muted-foreground"
           >
-            {t('hero.role')}
+            {t('hero.role') as string}
           </motion.h2>
 
           <motion.p
@@ -51,7 +51,7 @@ const Hero = () => {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="max-w-2xl text-lg mb-8 text-muted-foreground"
           >
-            {t('hero.description')}
+            {t('hero.description') as string}
           </motion.p>
 
           <motion.div
@@ -68,7 +68,7 @@ const Hero = () => {
               }}
               className="px-6 py-3 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
             >
-              {t('hero.cta')}
+              {t('hero.cta') as string}
             </a>
             <a
               href="/assets/HuynhMinhNhut_Fullstack_Developer.pdf"
@@ -76,7 +76,7 @@ const Hero = () => {
               className="px-6 py-3 rounded-md bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors flex items-center justify-center gap-2"
             >
               <Download size={18} />
-              {t('hero.resume')}
+              {t('hero.resume') as string}
             </a>
           </motion.div>
         </div>
