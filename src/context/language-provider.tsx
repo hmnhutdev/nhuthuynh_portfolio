@@ -24,7 +24,7 @@ const translations = {
 
     // Hero section
     'hero.greeting': 'Hi, I\'m',
-    'hero.role': 'Fullstack Web Developer',
+    'hero.role': 'Junior Fullstack Web Developer',
     'hero.description': 'I build modern web applications with passion and attention to detail',
     'hero.cta': 'Get in touch',
     'hero.resume': 'Download CV',
@@ -48,7 +48,7 @@ const translations = {
     'projects.viewCode': 'Source Code',
     'projects.chatSystem': {
       title: 'Chat System For Customer Support',
-      role: 'Fullstack Web Developer',
+      role: 'Junior Fullstack Web Developer',
       description: 'A comprehensive customer support chat system with real-time communication capabilities.',
       achievements: [
         'Resolved UI bugs and logical issues in chatbot systems to improve reliability and user experience',
@@ -71,12 +71,12 @@ const translations = {
     },
     'projects.hydroPlant': {
       title: 'Management of Hydroelectric Plants',
-      role: 'Junior Fullstack Web Developer',
+      role: 'Frontend Web Developer',
       description: 'Monitoring and management system for hydroelectric power plants with real-time data visualization.',
       achievements: [
-        'Built and integrated RESTful APIs with NodeJS and PostgreSQL',
-        'Developed user interfaces using HTML5 and SCSS with ReactJS',
-        'Implemented data visualizations with Chart.js for operational metrics'
+        'Developed modular and reusable user interfaces using HTML5 and SCSS within ReactJS class-based components',
+        'Enhanced operational dashboards with interactive and scalable Chart.js visualizations for large datasets',
+        'Optimized layout performance and user engagement across various screen sizes and data volumes'
       ]
     },
 
@@ -156,9 +156,9 @@ const translations = {
       role: 'Lập Trình Viên Fullstack Mới Vào Nghề',
       description: 'Hệ thống giám sát và quản lý nhà máy thủy điện với hiển thị dữ liệu thời gian thực.',
       achievements: [
-        'Xây dựng và tích hợp RESTful API với NodeJS và PostgreSQL',
-        'Phát triển giao diện người dùng sử dụng HTML5 và SCSS với ReactJS',
-        'Triển khai biểu đồ dữ liệu với Chart.js cho các chỉ số vận hành'
+        'Phát triển giao diện người dùng có tính mô-đun và tái sử dụng bằng HTML5 và SCSS trong các component ReactJS dạng class.',
+        'Nâng cấp bảng điều khiển vận hành với biểu đồ tương tác và co giãn bằng Chart.js cho các tập dữ liệu lớn.',
+        'Tối ưu hóa hiệu suất bố cục và tăng mức độ tương tác người dùng trên nhiều kích thước màn hình và khối lượng dữ liệu khác nhau.'
       ]
     },
 

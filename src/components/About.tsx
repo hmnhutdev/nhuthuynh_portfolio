@@ -71,7 +71,7 @@ const About = () => {
               <div className="space-y-4">
                 <div className="border-l-2 border-primary pl-4 py-2">
                   <div className="text-sm text-muted-foreground">2022 - Present</div>
-                  <div className="font-medium">Fullstack Web Developer</div>
+                  <div className="font-medium">Junior Fullstack Web Developer</div>
                   <div className="text-muted-foreground">IVS JSC</div>
                 </div>
                 <div className="border-l-2 border-primary pl-4 py-2">
