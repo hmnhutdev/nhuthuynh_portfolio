@@ -17,9 +17,17 @@ interface ProjectBase {
 // Project data without translations
 const projectData: ProjectBase[] = [
   {
+    key: 'hotelBooking',
+    company: 'IVS JSC',
+    period: '07/2025 – Present',
+    teamSize: '6 members',
+    tags: ['HTML5', 'SCSS', 'VueJS', 'Typescript', 'Python', 'FastAPI', 'Docker'],
+    image: '/assets/projects/chat-system.jpg',
+  },
+  {
     key: 'chatSystem',
     company: 'IVS JSC',
-    period: '07/2023 – Present',
+    period: '07/2023 – 6/2025',
     teamSize: '3 members',
     tags: ['CakePHP', 'AngularJS', 'jQuery', 'Node.js', 'Socket.io', 'MySQL', 'Redis', 'Playwright'],
     image: '/assets/projects/chat-system.jpg',

@@ -9,9 +9,10 @@ const skillCategories = [
     skills: [
       { name: 'HTML5', icon: '🔷' }, // Blue diamond for HTML5
       { name: 'CSS3/SCSS', icon: '🎨' }, // Artist palette for CSS/SCSS
+      { name: 'TailwindCSS', icon: '💨' }, // Wind for Tailwind
       { name: 'JavaScript', icon: '🟨' }, // Yellow square for JavaScript
       { name: 'TypeScript', icon: '🔵' }, // Blue circle for TypeScript
-      { name: 'TailwindCSS', icon: '💨' }, // Wind for Tailwind
+      { name: 'React', icon: '⚛️' }, // Atom symbol for React
     ],
   },
   {
