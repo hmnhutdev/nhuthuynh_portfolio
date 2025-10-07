@@ -71,7 +71,7 @@ const Hero = () => {
               {t('hero.cta') as string}
             </a>
             <a
-              href="/assets/HuynhMinhNhut_Junior_Fullstack_Dev.pdf"
+              href="/assets/HuynhMinhNhut_FrontendDeveloper.pdf"
               download
               className="px-6 py-3 rounded-md bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors flex items-center justify-center gap-2"
             >
